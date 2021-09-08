@@ -1,0 +1,74 @@
+:root{
+    --icon: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+img{
+    cursor: pointer;
+}
+#button{
+    transform: scale(0.5);
+    text-align: center;
+}
+#button:active{
+    transform: scale(0.6);
+}
+
+#upgrade1{
+    opacity: 0.5;
+}
+
+#main{
+    background-color: cornflowerblue;
+    width: calc(100% - 400px);
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#up{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position:absolute;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+
+#themeWhite{
+    cursor: pointer;
+    width: var(--icon);
+}
+
+#container{
+    background-color:white;
+}
+
+#themeDark{
+    cursor: pointer;
+    width: var(--icon);
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: darkgray;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+    <div id="main">
+    <h2>Idle Game</h2>
+    <h2 id="aa"></h2>
+    <h2 id="dps"> 1 moedas por segundo</h2>
+    <img src="./assets/dollar.png" alt="button" onclick="click1(this)" id="button">
+    </div>
+    
+    <!-- Upgrades -->
+    <div id="up">
+    <h3>Upgrades</h3>
+    <button onclick="upgradeClick()" id="upgrade1" class="btn">1+ per click</button>
+    <h3 id="bb" ></h3>
+    <button onclick="clickIdle()" class="btn">Cursor</button>
+    <h3 id="cc"></h3>
+    </div>
+
+    <!-- Botão de Reset-->
+    <button onclick="resetar()" class="btn">Reset</button>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
